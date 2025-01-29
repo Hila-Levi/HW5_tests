@@ -1,10 +1,6 @@
-
-	bool val=true;
-        if (val)
-		print("val is true");
-	else {
-		print("val is false");
-	}
+void main() {
+	printByValue(true);
+	printByValue(false);
 
 	if(true)
     {
@@ -15,3 +11,12 @@
     {
         print("true");
     }
+}
+
+void printByValue(bool val) {
+	if (val)
+		print("val is true");
+	else {
+		print("val is false");
+	}
+}
